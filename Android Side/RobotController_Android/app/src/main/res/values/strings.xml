@@ -1,0 +1,16 @@
+<resources>
+
+
+    <string name="app_name">Robot Controller</string>
+    <string name="first_activity_label">List Paired Devices</string>
+    <string name="second_activity_label">Control Panel</string>
+
+    <string name="exit_the_app">Exit</string>
+    <string name="paired_button">Show Paired Devices</string>
+    <string name="paired_device_text">Paired Device: PAIRED_DEVICE</string>
+    <string name="button_text_go_forward">⬆️</string>
+
+
+</resources>
+
+

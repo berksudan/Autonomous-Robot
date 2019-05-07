@@ -1,0 +1,64 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/black_background"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/first_activity_label"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="35sp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="150dip"
+            >
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/showPairedDeviceID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dip"
+            android:background="@color/colorDarkBlue"
+            android:text="@string/paired_device_text"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/buttonPairedID"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/paired_button" />
+
+        <Button
+            android:id="@+id/buttonExitID"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="@string/exit_the_app" />
+
+    </LinearLayout>
+</LinearLayout>
